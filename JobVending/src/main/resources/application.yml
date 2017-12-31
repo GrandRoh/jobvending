@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://52.79.186.141:3306/jobvending?useUnicode=true&characterEncoding=utf8
+    username: jobvending
+    password: test1234
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate.ddl-auto: none
+    generate-ddl: true
+    show-sql: true
+
+  thymeleaf:
+    cache: false
+
+
+
+
+server:
+  port: 8015
